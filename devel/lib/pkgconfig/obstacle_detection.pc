@@ -1,0 +1,8 @@
+prefix=/home/pi/autonomous_driving_Class-master/devel
+
+Name: obstacle_detection
+Description: Description of obstacle_detection
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
