@@ -15,6 +15,4 @@ This project implements a **monocular camera and 2D LiDAR fusion vision system**
 
 
 #### **Decision and Motion Control**  
-- The control node subscribes to both **lane detection** and **obstacle detection** topics, maintaining a global state for **real-time decision-making**.  
-- Depending on the active mode (lane following or obstacle avoidance), the system computes an optimal **steering angle**.  
-- The final motion commands, including **mode, velocity, steering, and gear state**, are then published to the actuator node for execution.  
+The control node subscribes to lane detection and obstacle detection topics, continuously updating a global state to support real-time decisions. Based on the active mode—either lane-following or obstacle avoidance—the system calculates the optimal steering angle. Finally, it publishes motion commands, including mode, velocity, steering angle, and gear state, to the actuator node for execution.
