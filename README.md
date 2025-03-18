@@ -2,7 +2,7 @@
 This project implements a **monocular camera and 2D LiDAR-based vision system** to enable lane-following and obstacle avoidance for a **differential drive autonomous vehicle**. Developed within the **ROS framework**, the system utilizes modular nodes for perception, decision-making, and control, achieving efficient autonomous navigation.  
 
 
-## Lane Detection and Control
+## Lane Tracking
 ![Image](https://github.com/user-attachments/assets/1f9c7c82-c445-442d-a9a6-d26b829239cd)
 - A **monocular camera** captures road images, which are processed for **lane line detection** using classical computer vision techniques (e.g., **Canny edge detection, Hough transform, Perspective transform**).
 - The detected lane boundaries determine the vehicle’s **differential drive kinematics**, the instantaneous steering angle is then computed and published via the control topic.
