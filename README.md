@@ -1,5 +1,4 @@
-# Autonomous_Driving
-### **Monocular Camera and 2D LiDAR-Based Vision System for Autonomous Navigation**  
+# Monocular Camera and 2D LiDAR-Based Vision System for Autonomous Navigation
 This project implements a **monocular camera and 2D LiDAR-based vision system** to enable lane-following and obstacle avoidance for a **differential drive autonomous vehicle**. Developed within the **ROS framework**, the system utilizes modular nodes for perception, decision-making, and control, achieving efficient autonomous navigation.  
 
 
