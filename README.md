@@ -1,5 +1,5 @@
 # Monocular Camera and 2D LiDAR Fusion Vision System for Autonomous Navigation
-This project implements a **monocular camera and 2D LiDAR fusion vision system** to enable lane-following and obstacle avoidance for a **differential drive vehicle**. Developed within the **ROS framework**, the system consists of modular nodes for perception, decision-making, and control, resulting in smooth and efficient autonomous navigation.  
+This project implements a **monocular camera and 2D LiDAR fusion vision system** to enable lane-following and obstacle avoidance for a **differential drive vehicle**. The system consists of modular nodes for perception, decision-making, and control developed within the **ROS framework**.
 
 
 ## Lane Tracking
